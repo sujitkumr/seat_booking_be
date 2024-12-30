@@ -17,7 +17,7 @@ app.use(cors());
 app.use("/seats", seatRouter);
 app.use('/user',UserRouter);
 
-app.listen(process.env.Port, async() => {
+app.listen(process.env.PORT, async() => {
     try {
         await connection;
         console.log("App is connected to DB");
