@@ -1,7 +1,7 @@
 const express=require('express');
 const router=express.Router();
 const otpGenerator = require('otp-generator');
-const User=require('../model/User.Model');
+const User=require('../Model/User.Model');
 const nodemailer = require('nodemailer');
 const bcrypt=require('bcrypt');
 const { fail } = require('assert');
